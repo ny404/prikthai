@@ -121,4 +121,15 @@
         transform: translate3d(200px, 0, 0);
     }
     .no-csstransforms3d > .offside-js--is-left .offside-sliding-element { right: -200px; }
+
+    .offside, .offside--right { right: -200px; }
+    .offside--right.is-open,
+    .offside-js--is-right .offside-sliding-element {
+        -webkit-transform: translate3d(-200px, 0, 0);
+        -moz-transform: translate3d(-200px, 0, 0);
+        -ms-transform: translate3d(-200px, 0, 0);
+        -o-transform: translate3d(-200px, 0, 0);
+        transform: translate3d(-200px, 0, 0);
+    }
+    .no-csstransforms3d > .offside-js--is-right .offside-sliding-element { left: -200px; }
 }

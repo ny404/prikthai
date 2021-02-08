@@ -19,7 +19,7 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 }
-.index-cover { background: url('../images/hub-thai-index-cover.jpg') top center no-repeat #192739; background-size: cover; }
+.index-cover { background: url('../images/prik-thai-cover.jpg') top center no-repeat #192739; background-size: cover; }
 .menu-cover { background: url('../images/hub-thai-cover.jpeg') top center no-repeat #192739; background-size: cover; }
 .drinks-cover { background: url('../images/hub-thai-drinks-cover.jpg') top center no-repeat #192739; background-size: cover;  }
 #nav-menu { background: #F0EDED; font-size: 1.2em; }
@@ -52,9 +52,9 @@ header {
     cursor: url("../images/close.png") 16 16, pointer;
 }
 
-main { background: #f7f9f9; }
+main { background: #FFFEF5; }
 footer { 
-	background: #1a6730;
+	background: #4F8308;
 	color: #fff;
 	padding: 2.5% 5%;
 	display: flex;
@@ -65,7 +65,7 @@ footer {
 button { 
 	width: 150px;
 	padding: 15px;
-	background: #20BF55;
+	background: #4F8308;
 	color: #fff;
 	text-align: center;
 	border: none;
@@ -82,7 +82,7 @@ button {
 a.map-button { 
 	width: 150px;
 	padding: 15px;
-	background: #20BF55;
+	background: #4F8308;
 	color: #fff;
 	margin: 5% auto;
 	display: block;
