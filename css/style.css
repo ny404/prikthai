@@ -5,6 +5,14 @@ h2 { font-size: 2em; line-height: 1.2em; }
 h3 { font-size: 1.6em; }
 a { text-decoration: none; color: #20BF55;}
 a:focus, button:focus { outline: 3px solid black; }
+
+.color-border {
+	box-shadow: 0 0 0 5px white;
+    outline: dashed 5px #009688;
+}
+
+.sub { font-size: 1.4em; line-height: 1.6em; }
+
 .branding { width: 150px; height: 150px; border-radius: 75px; margin: auto; display: block; }
 .branding-menu { width: 300px; height: 300px; margin: auto; display: block; }
 header { 
@@ -19,11 +27,11 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 }
-.index-cover { background: url('../images/prik-thai-cover.jpg') top center no-repeat #192739; background-size: cover; }
+.index-cover { background: url('../images/prik-thai-cover.jpg') top center no-repeat #192739; background-size: cover; text-align: center;}
 .menu-cover { background: url('../images/hub-thai-cover.jpeg') top center no-repeat #192739; background-size: cover; }
 .drinks-cover { background: url('../images/hub-thai-drinks-cover.jpg') top center no-repeat #192739; background-size: cover;  }
 #nav-menu { background: #F0EDED; font-size: 1.2em; }
-#nav-btn { display: block; width: auto; position: fixed; z-index: 200; top: 0; left: 0; font-size: 1.2em; margin: 15px; 
+#nav-btn { display: block; width: auto; position: fixed; z-index: 200; top: 0; right: 0; font-size: 1.2em; margin: 15px; 
 }
 .site-overlay {
     z-index: 1;
@@ -52,7 +60,7 @@ header {
     cursor: url("../images/close.png") 16 16, pointer;
 }
 
-main { background: #FFFEF5; }
+main { background: url('../images/prik-thai-main-bg.png') top center repeat #FFFEF5; }
 footer { 
 	background: #4F8308;
 	color: #fff;
@@ -70,7 +78,7 @@ button {
 	text-align: center;
 	border: none;
 	border-radius: 5px;
-	font-size: inherit;
+	font-size: 1.2em;
 	cursor: pointer;
 	opacity: 1;
 	transition: opacity .25s ease-in-out;
@@ -93,6 +101,7 @@ a.map-button {
 	transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
+    font-size: 1.2em;
 }
 button:hover, a.map-button:hover { opacity: 0.8; }
 
@@ -137,7 +146,7 @@ section h2, p.subheading { width: 100%; text-align: center; }
 .col-4 { width: 33.33333333%; }
 .col-6 { width: 50%; }
 .col-8 { width: 66.66666667%; }
-.col-9 { width: 75%; background: rgba(255,255,255,0.9); }
+.col-9 { width: 75%; }
 .col-12 { width: 100%; }
 
 ul.tabs { max-width: 1366px; width: 100%; padding: 0; margin: auto; display: flex;  flex-wrap: nowrap; overflow-x: scroll; -webkit-overflow-scrolling: touch; }
