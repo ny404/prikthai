@@ -1,5 +1,5 @@
 body { font-size: 1em; font-family: 'Roboto', sans-serif; line-height: 1.6em; padding: 0; margin: 0; }
-h1, h2, h3 { font-family: 'Titillium Web', sans-serif; margin-top: 0; text-align: center;}
+h1, h2, h3 { font-family: 'Yeseva One', cursive; margin-top: 0; text-align: center;}
 h1 { font-size: 2.5em; line-height: 1.2em;}
 h2 { font-size: 2em; line-height: 1.2em; }
 h3 { font-size: 1.6em; }
@@ -10,6 +10,8 @@ a:focus, button:focus { outline: 3px solid black; }
 	box-shadow: 0 0 0 5px white;
     outline: dashed 5px #009688;
 }
+
+.backdrop { background: rgba(255,255,255,0.7); }
 
 .sub { font-size: 1.4em; line-height: 1.6em; }
 
@@ -60,7 +62,7 @@ header {
     cursor: url("../images/close.png") 16 16, pointer;
 }
 
-main { background: url('../images/prik-thai-main-bg.png') top center repeat #FFFEF5; }
+main { background: url('../images/prik-thai-main-bg.jpg') top center repeat #FFFEF5; }
 footer { 
 	background: #4F8308;
 	color: #fff;
@@ -70,7 +72,7 @@ footer {
 	justify-content: center;
 	text-align: center;
 }
-button { 
+button, .order-button { 
 	width: 150px;
 	padding: 15px;
 	background: #4F8308;
@@ -170,6 +172,9 @@ ul.tabs button:focus { outline: none; border-bottom: 3px solid #20BF55; }
 .divider { width: 90%; padding: 5%; text-align: center; }
 .divider:last-child { padding-bottom: 0; }
 .divider img { width: 320px; height: 84px; }
+
+.border-divider { background: url('../images/prik-thai-border.png') repeat-x top center; width: 100%; height: 45px; }
+.border-divider-alt { background: url('../images/prik-thai-border-alt.png') repeat-x top center; width: 100%; height: 45px; }
 
 .food-item { 
 	width: 31%;

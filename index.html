@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/offside.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -26,7 +27,7 @@
     <button type="button" id="nav-btn" aria-label="Access navigation menu"><i class="fas fa-bars"></i> Menu</button>
   <!-- Off-canvas element  -->
     <nav id="nav-menu" class="offside offside--right" role="navigation">
-      <a href="/"><img class="branding-menu" src="images/prik-thai_logo.png" alt="Prik Thai Kitchen Home Page"></a>
+      <a href="/"><img class="branding-menu" src="images/prik-thai-logo.png" alt="Prik Thai Kitchen Home Page"></a>
       <ul class="primary">
         <li><a href="/menu"><i class="fas fa-utensils"></i> Food Menu</a></li>
         <li><a href="/drinks"><i class="fas fa-wine-glass-alt"></i> Drinks Menu</a></li>
@@ -41,13 +42,14 @@
     </nav>
     <div id="container">
       <header class="index-cover">
-          <div class="col-9">
-            <img class="branding" src="images/hubthai_logo.png" style="margin-top:-75px;">
+          <div class="col-12 col-xs backdrop">
+            <div class="border-divider"></div>
             <div class="content">
               <h1>Welcome to Prik Thai Kitchen</h1>
               <p class="sub">Takeout, Delivery, and Outdoor Dining</p>
-              <button type="button" aria-label="Order Prik Thai Kitchen online through Foodbooking">Order Online</button>
+              <a class="order-button" href="" aria-label="Order Prik Thai Kitchen online through Foodbooking">Order Online</a>
             </div>
+            <div class="border-divider-alt"></div>
           </div>
       </header>
       <main>
@@ -71,7 +73,7 @@
                 Manhattan, NY 10009<br>
                 <a href="tel:+12122288221">(212) 228-8221</a><br>
               </address>
-              <a class="map-button" href="https://www.google.com/maps/dir//Hub+Thai,+103-105+Avenue+A,+New+York,+NY+10009/@40.725937,-73.9861165,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c2599d4e886ba3:0xd72b3ea9950f3c01!2m2!1d-73.9839278!2d40.725933" target="_blank" aria-label="Get directions to Hub Thai via Google Maps">Get Directions</a>
+              <a class="map-button" href="https://www.google.com/maps/dir//Prik+Thai+Kitchen,+47-16+30th+Ave,+Astoria,+NY+11103/@40.7607625,-73.9167029,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c25f667cf7ed07:0x207a2bfe808ae1b0!2m2!1d-73.9089352!2d40.760925" target="_blank" aria-label="Get directions to Prik Thai Kitchen via Google Maps">Get Directions</a>
               <h3>Business Hours</h3>
               <table class="business-hours">
                 <tr><th>Sunday:</th><td>12:00 PM - 11:00PM</td></tr>
