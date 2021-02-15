@@ -84,7 +84,7 @@ header {
 
 main { background: url('../images/prik-thai-main-bg.jpg') top center repeat #FFFEF5; }
 footer { 
-	background: #4F8308;
+	background: #292929;
 	color: #fff;
 	padding: 2.5% 5%;
 	display: flex;
@@ -141,17 +141,18 @@ section {
 	flex-wrap: wrap;
 }
 section:after { content:''; display: table; }
-section.about-us, section.find-us { padding: 0; max-width: 100%; align-items: center; }
+section.about-us, section.explore-us, section.find-us { padding: 0; max-width: 100%; align-items: center; }
+section.explore-us { background: #292929; color: #fff; }
 .about-img, .map-img { 
 	background: center center no-repeat;
 	background-size: cover;
-	height: 85vh;
+	height: 100vh;
 }
 section.find-us address { text-align: center; }
 table.business-hours th {
   text-align: right; 
 }
-table.business-hours { margin: auto; }
+table.business-hours { margin: auto; border: 2px solid #87806f; padding: 5%; box-shadow: 5px 5px #87806f; background: #fff; }
 th, td { padding: 2.5px; }
 /*section:first-child { padding-bottom: 0; }*/
 .justify-reset { justify-content: initial; display: block; }
