@@ -200,20 +200,22 @@ ul.tabs button:focus { outline: none; border-bottom: 3px solid #4F8308; }
 .food-item { 
 	width: 31%;
 	margin: 1%;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 	background: #fff;
-	/*border: 1px solid #F1D6B8;*/
-	transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out; 
+	border: 2px solid #c3c0be;
+	transition: transform 0.25s ease-in-out, border 0.25s ease-in-out, box-shadow 0.25s ease-in-out; 
 }
 .food-item:hover { 
 	transform: scale(1.0125);
-	box-shadow:
+	border: 2px solid #87806f;
+	box-shadow: 5px 5px #87806f;
+	/*box-shadow:
 		0 2.8px 2.2px rgba(0, 0, 0, 0.034),
 		0 6.7px 5.3px rgba(0, 0, 0, 0.048),
 		0 12.5px 10px rgba(0, 0, 0, 0.06),
 		0 22.3px 17.9px rgba(0, 0, 0, 0.072),
 		0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-		0 100px 80px rgba(0, 0, 0, 0.12);
+		0 100px 80px rgba(0, 0, 0, 0.12);*/
 }
 .food-item h3 { margin-top: 0; color: #1a6730; text-align: left; }
 .food-item img {
@@ -225,7 +227,7 @@ ul.tabs button:focus { outline: none; border-bottom: 3px solid #4F8308; }
   opacity: 0;
 }
 
-.price { text-align: right; }
+.price { text-align: right; font-family: 'PT Serif', sans-serif; font-weight: 700; font-size: 1.2em; }
 .preview { width: 100%; display: block; }
 .tags { display: inline-block; margin-right: 5px; font-size: 0.5em; vertical-align: top; }
 .gluten { color: #87806f; }
