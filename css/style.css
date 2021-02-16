@@ -142,7 +142,7 @@ section {
 }
 section:after { content:''; display: table; }
 section.about-us, section.explore-us, section.find-us { padding: 0; max-width: 100%; align-items: center; }
-section.explore-us { background: #292929; color: #fff; }
+section.explore-us { background: #292929; }
 .about-img, .map-img { 
 	background: center center no-repeat;
 	background-size: cover;
@@ -159,7 +159,7 @@ th, td { padding: 2.5px; }
 .justify-reset h2 { text-align: initial; margin: 0.67em 0; }
 .justify-reset ul { list-style: initial; padding: 0 2.5%; margin: 0; }
 .justify-reset li { padding: 0; margin: 0; }
-nav.scroll-wrapper { padding: 0 5%; background: #F0EDED; }
+nav.scroll-wrapper { padding: 0 5%; background: #c3c0be; }
 
 section h2, p.subheading { width: 100%; text-align: center; }
 
@@ -183,8 +183,8 @@ ul.tabs li {
 	display: inline-block;
 	padding: 0;
 }
-ul.tabs button { width: auto; padding: 20px; background: none; border-radius: 0; border-top: 3px solid transparent; border-bottom: 3px solid transparent; color: #272d2d;}
-ul.tabs button:focus { outline: none; border-bottom: 3px solid #20BF55; }
+ul.tabs button { width: auto; padding: 20px; background: none; border-radius: 0; border-top: 3px solid transparent; border-bottom: 3px solid transparent; color: #000;}
+ul.tabs button:focus { outline: none; border-bottom: 3px solid #4F8308; }
 
 [role="tabpanel"] {
 	outline: none;
@@ -228,6 +228,7 @@ ul.tabs button:focus { outline: none; border-bottom: 3px solid #20BF55; }
 .price { text-align: right; }
 .preview { width: 100%; display: block; }
 .tags { display: inline-block; margin-right: 5px; font-size: 0.5em; vertical-align: top; }
+.gluten { color: #87806f; }
 .spicy { color: #ad0303; }
 .content {
 	padding: 5%;
